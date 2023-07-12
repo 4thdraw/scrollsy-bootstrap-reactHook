@@ -1,8 +1,11 @@
+@font-face {
+	font-family: "YeongdeokSea";
+	src: url(./fonts/YeongdeokSea.ttf);
+  /* woff, woff2 가 아닌 폰트소스는 src에서 정의하고 쓸것 */
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "YeongdeokSea", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +14,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
